@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B05EB6126DE42AD00B68945 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05EB6026DE42AD00B68945 /* AppDelegate.m */; };
+		5B05EB6426DE42AD00B68945 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05EB6326DE42AD00B68945 /* SceneDelegate.m */; };
+		5B05EB6726DE42AD00B68945 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05EB6626DE42AD00B68945 /* ViewController.m */; };
+		5B05EB6A26DE42AD00B68945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B05EB6826DE42AD00B68945 /* Main.storyboard */; };
+		5B05EB6C26DE42AE00B68945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B05EB6B26DE42AE00B68945 /* Assets.xcassets */; };
+		5B05EB6F26DE42AE00B68945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B05EB6D26DE42AE00B68945 /* LaunchScreen.storyboard */; };
+		5B05EB7226DE42AE00B68945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05EB7126DE42AE00B68945 /* main.m */; };
+		5B05EB8826DE4EF300B68945 /* HBNetworkhandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05EB8726DE4EF300B68945 /* HBNetworkhandle.m */; };
+		5B05EB8B26DE50D700B68945 /* VersionCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B05EB8A26DE50D700B68945 /* VersionCheck.m */; };
+		F626E259377907133670BB9F /* Pods_HBNetwork_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDB1D1B2434A289126C1635 /* Pods_HBNetwork_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DDB1D1B2434A289126C1635 /* Pods_HBNetwork_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HBNetwork_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B05EB5C26DE42AD00B68945 /* HBNetwork-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HBNetwork-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B05EB5F26DE42AD00B68945 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B05EB6026DE42AD00B68945 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B05EB6226DE42AD00B68945 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5B05EB6326DE42AD00B68945 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5B05EB6526DE42AD00B68945 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B05EB6626DE42AD00B68945 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B05EB6926DE42AD00B68945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B05EB6B26DE42AE00B68945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B05EB6E26DE42AE00B68945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B05EB7026DE42AE00B68945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B05EB7126DE42AE00B68945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B05EB8626DE4EF300B68945 /* HBNetworkhandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBNetworkhandle.h; sourceTree = "<group>"; };
+		5B05EB8726DE4EF300B68945 /* HBNetworkhandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBNetworkhandle.m; sourceTree = "<group>"; };
+		5B05EB8926DE50D700B68945 /* VersionCheck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VersionCheck.h; sourceTree = "<group>"; };
+		5B05EB8A26DE50D700B68945 /* VersionCheck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VersionCheck.m; sourceTree = "<group>"; };
+		9118150E265694011ADBFE4B /* Pods-HBNetwork-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBNetwork-iOS.debug.xcconfig"; path = "Target Support Files/Pods-HBNetwork-iOS/Pods-HBNetwork-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D02D856833EAFDD28F6774EE /* Pods-HBNetwork-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBNetwork-iOS.release.xcconfig"; path = "Target Support Files/Pods-HBNetwork-iOS/Pods-HBNetwork-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B05EB5926DE42AD00B68945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F626E259377907133670BB9F /* Pods_HBNetwork_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B05EB5326DE42AD00B68945 = {
+			isa = PBXGroup;
+			children = (
+				5B05EB5E26DE42AD00B68945 /* HBNetwork-iOS */,
+				5B05EB5D26DE42AD00B68945 /* Products */,
+				74C5A75213C0E8A07FC6DEDC /* Pods */,
+				984B47600FB473AE795D4440 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B05EB5D26DE42AD00B68945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B05EB5C26DE42AD00B68945 /* HBNetwork-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B05EB5E26DE42AD00B68945 /* HBNetwork-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5B05EB5F26DE42AD00B68945 /* AppDelegate.h */,
+				5B05EB6026DE42AD00B68945 /* AppDelegate.m */,
+				5B05EB8626DE4EF300B68945 /* HBNetworkhandle.h */,
+				5B05EB8726DE4EF300B68945 /* HBNetworkhandle.m */,
+				5B05EB6226DE42AD00B68945 /* SceneDelegate.h */,
+				5B05EB6326DE42AD00B68945 /* SceneDelegate.m */,
+				5B05EB8926DE50D700B68945 /* VersionCheck.h */,
+				5B05EB8A26DE50D700B68945 /* VersionCheck.m */,
+				5B05EB6526DE42AD00B68945 /* ViewController.h */,
+				5B05EB6626DE42AD00B68945 /* ViewController.m */,
+				5B05EB6826DE42AD00B68945 /* Main.storyboard */,
+				5B05EB6B26DE42AE00B68945 /* Assets.xcassets */,
+				5B05EB6D26DE42AE00B68945 /* LaunchScreen.storyboard */,
+				5B05EB7026DE42AE00B68945 /* Info.plist */,
+				5B05EB7126DE42AE00B68945 /* main.m */,
+			);
+			path = "HBNetwork-iOS";
+			sourceTree = "<group>";
+		};
+		74C5A75213C0E8A07FC6DEDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9118150E265694011ADBFE4B /* Pods-HBNetwork-iOS.debug.xcconfig */,
+				D02D856833EAFDD28F6774EE /* Pods-HBNetwork-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		984B47600FB473AE795D4440 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DDB1D1B2434A289126C1635 /* Pods_HBNetwork_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B05EB5B26DE42AD00B68945 /* HBNetwork-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B05EB7526DE42AE00B68945 /* Build configuration list for PBXNativeTarget "HBNetwork-iOS" */;
+			buildPhases = (
+				912F35969C363E2531CF6EBD /* [CP] Check Pods Manifest.lock */,
+				5B05EB5826DE42AD00B68945 /* Sources */,
+				5B05EB5926DE42AD00B68945 /* Frameworks */,
+				5B05EB5A26DE42AD00B68945 /* Resources */,
+				FCDCAF6C7FA7D82188DD12E5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HBNetwork-iOS";
+			productName = "HBNetwork-iOS";
+			productReference = 5B05EB5C26DE42AD00B68945 /* HBNetwork-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B05EB5426DE42AD00B68945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5B05EB5B26DE42AD00B68945 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B05EB5726DE42AD00B68945 /* Build configuration list for PBXProject "HBNetwork-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B05EB5326DE42AD00B68945;
+			productRefGroup = 5B05EB5D26DE42AD00B68945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B05EB5B26DE42AD00B68945 /* HBNetwork-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B05EB5A26DE42AD00B68945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B05EB6F26DE42AE00B68945 /* LaunchScreen.storyboard in Resources */,
+				5B05EB6C26DE42AE00B68945 /* Assets.xcassets in Resources */,
+				5B05EB6A26DE42AD00B68945 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		912F35969C363E2531CF6EBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBNetwork-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCDCAF6C7FA7D82188DD12E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBNetwork-iOS/Pods-HBNetwork-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HBNetwork-iOS/Pods-HBNetwork-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HBNetwork-iOS/Pods-HBNetwork-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B05EB5826DE42AD00B68945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B05EB6726DE42AD00B68945 /* ViewController.m in Sources */,
+				5B05EB6126DE42AD00B68945 /* AppDelegate.m in Sources */,
+				5B05EB8826DE4EF300B68945 /* HBNetworkhandle.m in Sources */,
+				5B05EB7226DE42AE00B68945 /* main.m in Sources */,
+				5B05EB6426DE42AD00B68945 /* SceneDelegate.m in Sources */,
+				5B05EB8B26DE50D700B68945 /* VersionCheck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B05EB6826DE42AD00B68945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B05EB6926DE42AD00B68945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B05EB6D26DE42AE00B68945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B05EB6E26DE42AE00B68945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B05EB7326DE42AE00B68945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B05EB7426DE42AE00B68945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B05EB7626DE42AE00B68945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9118150E265694011ADBFE4B /* Pods-HBNetwork-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY7T2K85AJ;
+				INFOPLIST_FILE = "HBNetwork-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hebo.HBNetwork-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B05EB7726DE42AE00B68945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D02D856833EAFDD28F6774EE /* Pods-HBNetwork-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NY7T2K85AJ;
+				INFOPLIST_FILE = "HBNetwork-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hebo.HBNetwork-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B05EB5726DE42AD00B68945 /* Build configuration list for PBXProject "HBNetwork-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B05EB7326DE42AE00B68945 /* Debug */,
+				5B05EB7426DE42AE00B68945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B05EB7526DE42AE00B68945 /* Build configuration list for PBXNativeTarget "HBNetwork-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B05EB7626DE42AE00B68945 /* Debug */,
+				5B05EB7726DE42AE00B68945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B05EB5426DE42AD00B68945 /* Project object */;
+}

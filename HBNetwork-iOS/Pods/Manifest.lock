@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - HBNetwork (1):
+    - AFNetworking (~> 4.0.0)
+    - YTKNetwork (~> 3.0.6)
+  - YTKNetwork (3.0.6):
+    - AFNetworking/NSURLSession (~> 4.0)
+
+DEPENDENCIES:
+  - HBNetwork (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - YTKNetwork
+
+EXTERNAL SOURCES:
+  HBNetwork:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  HBNetwork: 4c1f50026028669fc0bb0b18884e833c4e172375
+  YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
+
+PODFILE CHECKSUM: 12d83ccab5a186f4c4028598f2ba5a8cef674261
+
+COCOAPODS: 1.10.1

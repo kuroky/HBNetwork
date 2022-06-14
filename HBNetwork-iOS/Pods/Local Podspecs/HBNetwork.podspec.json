@@ -1,0 +1,31 @@
+{
+  "name": "HBNetwork",
+  "version": "1",
+  "summary": "HBNetwork.",
+  "description": "this is HBNetwork",
+  "homepage": "http://172.16.80.5:22331/hebo_ios/hbnetwork",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "summer": "summer"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "http://172.16.80.5:22331/hebo_ios/hbnetwork.git",
+    "tag": "1"
+  },
+  "source_files": "HBNetwork/HBNetwork/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.0"
+    ],
+    "YTKNetwork": [
+      "~> 3.0.6"
+    ]
+  }
+}

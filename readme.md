@@ -8,7 +8,7 @@
 ```Swift
 iOS 11.0
 
-pod 'HBNetwork', :git => 'http://172.16.80.5:22331/hebo_ios/hbnetwork.git', :tag => '1.0.0' 
+pod 'HBNetwork', :git => 'https://github.com/kuroky/HBNetwork'
 ```
 
 ### 文件结构

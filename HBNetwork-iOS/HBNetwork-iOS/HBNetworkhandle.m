@@ -8,6 +8,7 @@
 #import "HBNetworkhandle.h"
 #import <HBNetwork/HBNetworkRequest.h>
 #import <HBNetwork/HBNetworkResponse.h>
+#import <AFNetworking/AFSecurityPolicy.h>
 
 @interface HBNetworkhandle ()
 
@@ -55,6 +56,32 @@
     #endif
     return reponse;
 }
+
+- (AFSecurityPolicy *)fetchSecurityPolicy {
+    AFSecurityPolicy *policy; // 由服务端校验
+    //if (HBServerEdition != HBEditionPro) {
+    policy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+    policy.validatesDomainName = NO; // 是否验证域名
+    policy.allowInvalidCertificates = YES;
+    return policy;
+    //}
+    /*
+    NSString *cerPath = [[NSBundle mainBundle] pathForResource:@"hb" ofType:@"cer"];
+    if (!cerPath) {
+        return nil;
+    }
+    
+    NSData *cerData = [[NSData alloc] initWithContentsOfFile:cerPath];
+    if (!cerData) {
+        return nil;
+    }
+    
+    policy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeCertificate
+                              withPinnedCertificates:[NSSet setWithObject:cerData]];
+    return policy;
+     */
+}
+
 
 - (HBNetworkResponse *)parseResponse:(NSData *)responseData {
     NSDictionary *dic = @{};

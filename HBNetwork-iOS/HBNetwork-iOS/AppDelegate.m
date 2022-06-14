@@ -21,22 +21,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     HBNetworkConfig *config = [HBNetworkConfig new];
-    config.baseUrl = @"https://172.16.80.6:10001";
-    config.securityPolicy = [self fetchSecurityPolicy]; // https设置
+    config.baseUrl = @"http://report-gateway-test.waooo.com:10003";
+    config.securityPolicy = [[HBNetworkhandle handler] fetchSecurityPolicy]; // https设置
     [[HBNetworkManager sharedManager] addConfig:config];
     [[HBNetworkManager sharedManager] configHandleDelegate:[HBNetworkhandle handler]];
     
     return YES;
 }
-
-- (AFSecurityPolicy *)fetchSecurityPolicy {
-    AFSecurityPolicy *policy; // 由服务端校验
-    policy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
-    policy.validatesDomainName = NO; // 是否验证域名
-    policy.allowInvalidCertificates = YES;
-    return policy;
-}
-
 
 #pragma mark - UISceneSession lifecycle
 

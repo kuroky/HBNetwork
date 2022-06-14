@@ -10,6 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class AFSecurityPolicy;
+
 /**
  基于业务层的统一处理
  1. Http header 传参
@@ -20,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HBNetworkhandle : NSObject <HBNetworkHandleDelegate>
 
 + (instancetype)handler;
+
+- (AFSecurityPolicy *)fetchSecurityPolicy;
 
 @end
 
